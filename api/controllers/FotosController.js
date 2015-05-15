@@ -11,7 +11,7 @@ module.exports = {
       adapter: require('skipper-s3'),
       key: 'AKIAIMZMFAO55BCBXGLQ',
       secret: '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',
-      bucket: 'subidafotos'
+      bucket: 'fotosboda'
     }, function (err, filesUploaded) {
       if (err) return res.negotiate(err);
       return res.ok({
